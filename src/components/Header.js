@@ -1,18 +1,5 @@
 import React from "react";
-import "../styles/Header.css"; // Import the CSS file for styling\
-import { GiOpenFolder } from "react-icons/gi";
-import {
-  FaSave,
-  FaFilePdf,
-  FaCopy,
-  FaPaste,
-  FaFileUpload,
-} from "react-icons/fa";
-import { MdOutlineSave, MdEditNote, MdEditDocument } from "react-icons/md";
-import { HiTemplate } from "react-icons/hi";
-import { BsFilePerson } from "react-icons/bs";
-import { FaBook } from "react-icons/fa6";
-import { TbReportSearch } from "react-icons/tb";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
@@ -44,85 +31,85 @@ const Header = () => {
         <ul>
           <li>
             <a href="#file">
-              <GiOpenFolder className="icons" />
+              <img src="../icons/open_inspection.png" alt="" />
               <div>Open Inspection</div>
             </a>
           </li>
           <li>
             <a href="#edit">
-              <FaSave className="icons" />
+              <img src="../icons/save_inspection.png" alt="" />
               <div>Save Inspection</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#internet">
-              <HiTemplate className="icons" />
+              <img src="../icons/open_template.png" alt="" />
               <div>Open Template</div>
             </a>
           </li>
           <li>
             <a href="#report-settings">
-              <MdOutlineSave className="icons" />
+              <img src="../icons/save_template.png" alt="" />
               <div>Save Template</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#">
-              <MdEditNote className="icons" />
+              <img src="../icons/edit_comments.png" alt="" />
               <div>Edit Comments</div>
             </a>
           </li>
           <li>
             <a href="#">
-              <MdEditDocument className="icons" />
+              <img src="../icons/edit_template.png" alt="" />
               <div>Edit Template</div>
             </a>
           </li>
           <li>
             <a href="#">
-              <FaFilePdf className="icons" />
+              <img src="../icons/pdf.png" alt="" />
               <div>Insert pdf Documments</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#">
-              <BsFilePerson className="icons" />
+              <img src="../icons/client_info.png" alt="" />
               <div>Client Info</div>
             </a>
           </li>
           <li>
             <a href="#">
-              <FaBook className="icons" />
+              <img src="../icons/contract_page.png" alt="" />
               <div>Contact Page</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#">
-              <FaCopy className="icons" />
+              <img src="../icons/copy.png" alt="" />
               <div>Copy</div>
             </a>
           </li>
           <li>
             <a href="#">
-              <FaPaste className="icons" />
+              <img src="../icons/paste.png" alt="" />
               <div>Paste</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#">
-              <TbReportSearch className="icons" /> <div>Geneate report</div>
+              <img src="../icons/generate_report.png" alt="" /> <div>Geneate report</div>
             </a>
           </li>
           <hr />
           <li>
             <a href="#">
               {" "}
-              <FaFileUpload className="icons" /> <div>Upload report</div>
+              <img src="../icons/upload_report.png" alt="" /> <div>Upload report</div>
             </a>
           </li>
           <hr />
